@@ -1,0 +1,69 @@
+/*
+    Steven Tran
+    Assignment 1, March 2018
+    UofT SCS Coding Bootcamp
+*/
+body{
+    font-family: 'Arial','Helvetica Neue',Helvetica,sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0px 10%;
+}
+
+div{
+    float: left;
+    display: block;
+}
+
+section{
+    width: 495px;
+    float: left;
+}
+
+aside{
+    float: left;
+    width: 345px;
+    height: 205px;
+
+}
+
+article{
+    color: #ebebeb;
+    background: #777;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+section{
+    padding: 30px 10px 10px;
+    background: #ebebeb;
+    text-align: center;
+    margin: 10px;
+}
+
+footer{
+    clear: both;
+}
+
+/*Classes for common elements*/
+/*Class containing common elements for Header, Nav, Section, Aside and Footer*/
+.Blocks{
+    background: #ebebeb;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+
+/*Class containing common elements for h1 and p tags*/
+.articleElements{
+    color: #777;
+    background: #ebebeb;
+    padding: 15px;
+    margin: 10px 20px;
+}
+
+
+
